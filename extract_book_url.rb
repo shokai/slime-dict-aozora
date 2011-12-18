@@ -1,10 +1,8 @@
 #!/usr/bin/env ruby
-require 'rubygems'
 
 regex = /^\"(.*)\"$/
 
 ARGF.each do |line|
-  
   splited = line.split(',').map{|i|
     if i =~ regex
       i.scan(/^\"(.*)\"$/).first.first
