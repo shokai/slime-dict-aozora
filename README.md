@@ -27,7 +27,7 @@ slime dict aozora
 
     % cd ../
     % cat books/*.txt | nkf -u | ruby -Ku make_dict.rb > raw-dict.txt
-    % cat raw-dict.txt | sort | uniq > aozora-dict.txt
+    % cat raw-dict.txt | sort | uniq -c | sort -r -n | awk '{print $2 " " $3 " " $4}' > aozora-dict.txt
 
 ## 名詞のみの辞書を作る例
 
