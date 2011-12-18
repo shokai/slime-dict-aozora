@@ -1,0 +1,6 @@
+.DS_Store
+*.lock
+*.tmp
+~*
+config.yaml
+*.zip
