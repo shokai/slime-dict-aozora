@@ -20,6 +20,6 @@ ARGF.each do |line|
     kana = splited[-2].tr('ァ-ン','ぁ-ん') ## 読み
     next if kana == i.surface
     next if kana =~ /[\[\]「」\*]/
-    puts "#{i.surface} #{kana} [#{type}]"
+    puts "#{kana} #{i.surface} [#{type}]"
   end
 end
