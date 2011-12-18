@@ -14,3 +14,15 @@ slime dict aozora
 ## 書籍データのURLを取り出す
 
     % cat list_person_all_extended.csv | nkf -u | ruby -Ku extract_book_url.rb > books.txt
+
+
+## 書籍データをダウンロード、解凍する
+
+    % mkdir books
+    % cd books
+    % wget -i ../books.txt
+    % unzip "*.zip"
+
+## 辞書を作る
+
+    % cd ../
