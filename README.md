@@ -21,7 +21,7 @@ slime dict aozora
     % mkdir books
     % cd books
     % wget -w 5 -i ../books.txt
-    % unzip "*.zip"
+    % unzip -o "*.zip"
 
 ## 辞書を作る
 
