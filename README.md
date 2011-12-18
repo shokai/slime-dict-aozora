@@ -2,6 +2,10 @@ slime dict aozora
 =================
 青空文庫からslime用の辞書を生成する
 
+## 必要なライブラリをインストール for Mac
+
+    % brew intsall nkf wget
+    % gem install igo-ruby
 
 ## ダウンロード
 
