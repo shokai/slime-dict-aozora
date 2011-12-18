@@ -4,3 +4,8 @@
 ~*
 config.yaml
 *.zip
+*.csv
+*.txt
+*.png
+*.jpg
+*.gif
