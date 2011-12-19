@@ -33,6 +33,9 @@ slime dict aozora
     % cat books/*.txt | nkf -u | ruby -Ku make_dict.rb > raw-dict.txt
     % cat raw-dict.txt | sort | uniq -c | sort -r -n | awk '{print $2 " " $3 " " $4}' > aozora-dict.txt
 
+頻出順に並んだ辞書ができる
+
+
 ## 名詞のみの辞書を作る例
 
     % cat aozora-dict.txt | grep "\[名詞\]" > aozora-dict-noun.txt
